@@ -11,7 +11,7 @@ We invited 12 distinct subjects from the LINEACT laboratory (4 females and 8 mal
 ![dataset example](rsc/DT-For-HAR_2.jpg)
 
 ## Download
-The dataset can be downloaded from this link : ```uploading in progress...```
+The dataset can be downloaded from this link : ```upload in progress...```
 
 ## Data Modalities  
 ### Skeleton modality 
