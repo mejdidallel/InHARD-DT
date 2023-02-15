@@ -5,6 +5,8 @@ This paper explores the use of a Digital Twin of a real industrial workstation i
 
 We invited 12 distinct subjects from the LINEACT laboratory (4 females and 8 males) for the DT data collection to perform the same assembly tasks of the InHARD dataset (link below) in Virtual Reality via a VR application of an industrial real workstation. This dataset contains 13 different industrial action classes and over 4800 action samples. The introduction of this dataset should allow us the study and development of various learning techniques for the task of human actions analysis inside industrial environments involving human robot collaborations. It can be used also in cross-validation scenarios where the training phase can be done using the Physical Twin (PT) data of the InHARD dataset (real world scenarios) and then test using Digital Twin (DT) data of the InHARD-DT dataset which is the main objective of this paper. 
 
+**Paper link : http://dx.doi.org/10.1016/j.engappai.2022.105655**
+
 ![dataset example](rsc/DT-For-HAR_1.jpg)
 ![dataset example](rsc/DT-For-HAR_2.jpg)
 
@@ -33,6 +35,8 @@ We used 2 C920 cameras to capture RGB Data. Each camera captures three different
 
 RGB files are stored in the **RGB/Videos folder** of the InHARD-DT dataset. The rendered videos of the assembly tasks in the VR application are stored in the **RGB/VR folder**.
 
+**PS** : Please note that the VR videos are not cut and are added just to better understand the concept of the workflow in the VR application.
+
 ## Action Classes
 To label the operators actions during the assembly task, we assigned each component, sub-system, system or any object involved in the assembly task to a specific triggering event activated once the operator interacts with them using the controllers. Thus, each performed action has its own mean of detection. In the Table below, we detail all the preset actions and their respective means of detection.
 
@@ -60,7 +64,7 @@ To label the operators actions during the assembly task, we assigned each compon
 ## Subjects
 We invited 12 distinct subjects from our laboratory (4 females and 8 males) for the DT data collection to perform the assembly tasks in the rendered VR application of the industrial workstation. The subjects were a mix between experts and beginners based on their handling and expertise with the assembly workflow. The ages of the subjects ranged between 25 and 45.
 
-For each sequence, you will find a **.csv** file that provides the sequence name, action class, action number and action start and end times.
+For each sequence, you will find a **.csv** file stored in the **CSV/ folder** that provides the sequence name, action class, action number and action start and end times.
 See an extract below:  
 
 | Respondent | Action | Action_number | Action_start | Action_end |
@@ -72,7 +76,7 @@ See an extract below:
 | LMVR_1_Alexandra_Manip | Assemble system | 0 | 79.0068 | 81.1070
 
 ## InHARD dataset
-Please follow this link to access the InHARD dataset : https://github.com/mejdidallel/InHARD
+Please follow this link to access the InHARD dataset : https://github.com/vhavard/InHARD
 
 ## Citation
 ``` 
