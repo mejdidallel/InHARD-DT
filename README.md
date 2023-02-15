@@ -11,7 +11,7 @@ We invited 12 distinct subjects from the LINEACT laboratory (4 females and 8 mal
 ![dataset example](rsc/DT-For-HAR_2.jpg)
 
 ## Download
-The dataset can be downloaded from this link : 
+The dataset can be downloaded from this link : ```uploading in progress...```
 
 ## Data Modalities  
 ### Skeleton modality 
@@ -36,6 +36,9 @@ We used 2 C920 cameras to capture RGB Data. Each camera captures three different
 RGB files are stored in the **RGB/Videos folder** of the InHARD-DT dataset. The rendered videos of the assembly tasks in the VR application are stored in the **RGB/VR folder**.
 
 **PS** : Please note that the VR videos are not cut and are added just to better understand the concept of the workflow in the VR application.
+
+## Dataset usage
+The InHARD-DT dataset can be used for both online and segmented action recognition scenarios. Therefore for each scenario, both RGB and Skeleton data are provided. 
 
 ## Action Classes
 To label the operators actions during the assembly task, we assigned each component, sub-system, system or any object involved in the assembly task to a specific triggering event activated once the operator interacts with them using the controllers. Thus, each performed action has its own mean of detection. In the Table below, we detail all the preset actions and their respective means of detection.
